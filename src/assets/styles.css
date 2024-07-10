@@ -1,0 +1,62 @@
+.nav-link {
+    color: black;
+    position: relative;
+  }
+  .nav-link.active::after {
+    margin-left:4.5vw;
+    content: '';
+    position: absolute;
+   left: 0;
+  
+    
+    transform: translateX(-50%);
+    width: 10vw; /* Width of the border */
+    height: 10px; /* Height of the border */
+    background-color: red; /* Color of the border */
+  }
+.nav-link{
+    font-size:xx-large;
+    font-weight: bold;
+
+}
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
