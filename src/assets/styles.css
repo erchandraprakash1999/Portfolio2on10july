@@ -60,3 +60,11 @@
     object-fit: cover;
   }
   
+#rt{transform: rotate(-90deg);
+ 
+}
+@media (max-width: 800) {
+  .about {
+      display:"none"
+  }
+}
