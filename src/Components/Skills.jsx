@@ -89,16 +89,16 @@ export default function Skills() {
               <div className="col-md-8">
 
             <div className="progress m-2">
-              <span className="h6">TASK A</span><div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="50"></div>
+              <span className="h6 ml-2">TASK A</span><div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="50"></div>
             </div>
             <div className="progress m-2">
-            <span className="h6">TASK B</span><div className="progress-bar bg-info" role="progressbar" style={{ width: "20%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="59"></div>
+            <span className="h6 ml-2">TASK B</span><div className="progress-bar bg-info" role="progressbar" style={{ width: "20%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="59"></div>
             </div>
             <div className="progress m-2">
-            <span className="h6">TASK C</span> <div className="progress-bar bg-warning" role="progressbar" style={{ width: "25%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="600"></div>
+            <span className="h6 ml-2">TASK C</span> <div className="progress-bar bg-warning" role="progressbar" style={{ width: "25%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="600"></div>
             </div>
             <div className="progress m-2">
-            <span className="h6">TASK D</span> <div className="progress-bar bg-danger" role="progressbar" style={{ width: "20%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="50"></div>
+            <span className="h6 ml-2">TASK D</span> <div className="progress-bar bg-danger" role="progressbar" style={{ width: "20%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="50"></div>
             </div>
            
 
