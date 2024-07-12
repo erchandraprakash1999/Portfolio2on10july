@@ -87,56 +87,26 @@ export default function Portfolio() {
             <div className="middle-block">
               <div className="width-90 md-width-100">
                 
-                <p className="col-10 mt-3" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
+                <p className="col-8 mt-3" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
                 Education is not the learning of facts, but the training of the mind to think. Education is a gift that none can take away. I am still learning every day.
           </p>
                 {/* features grid */}
-                <ol className="text-danger" style={{}}>
-  {/* features item */}
-  <li className="margin-four-bottom xs-margin-five-bottom">
-    <div className="d-flex flex-md-row flex-column align-items-md-center">
-  
-      <div className="col-md-10 col-sm-10 col-xs-12 xs-no-padding">
-        <h3 className="text-small font-weight-700 margin-5px-bottom text-dark">University of Design</h3>
-        <span className="text-small text-light-gray display-inline-block text-dark line-height26">Visual art & Design<br />2011 - 2012</span>
-      </div>
-    </div>
-  </li>
-  {/* end features item */}
-  {/* features item */}
-  <li className="margin-four-bottom xs-margin-five-bottom">
-    <div className="d-flex flex-md-row flex-column align-items-md-center">
-    
-      <div className="col-md-10 col-sm-10 col-xs-12 xs-no-padding">
-        <h3 className="text-small font-weight-700 margin-5px-bottom text-dark">Boston University</h3>
-        <span className="text-small text-light-gray display-inline-block text-dark line-height26">Visual art & Design<br />2011 - 2012</span>
-      </div>
-    </div>
-  </li>
-  {/* end features item */}
-  {/* features item */}
-  <li className="margin-four-bottom xs-margin-five-bottom">
-    <div className="d-flex flex-md-row flex-column align-items-md-center">
-     
-      <div className="col-md-10 col-sm-10 col-xs-12 xs-no-padding">
-        <h3 className="text-small font-weight-700 margin-5px-bottom text-dark">Boston University</h3>
-        <span className="text-small text-light-gray display-inline-block text-dark line-height26">Degree of Design<br />2009 - 2011</span>
-      </div>
-    </div>
-  </li>
-  {/* end features item */}
-  {/* features item */}
-  <li>
-    <div className="d-flex flex-md-row flex-column align-items-md-center">
-      
-      <div className="col-md-10 col-sm-10 col-xs-12 xs-no-padding">
-        <h3 className="text-small font-weight-700 margin-5px-bottom text-dark">Design University</h3>
-        <span className="text-small text-light-gray display-inline-block line-height26 text-dark">Degree of Web Design<br />2007 - 2009</span>
-      </div>
-    </div>
-  </li>
-  {/* end features item */}
-</ol>
+                <ol className="text-left text-danger" style={{listStyle:"outside"}}>
+                  <li className="m-2 text-secondary" style={{fontSize:"1.3vw "}}>Design is not just what is looks and feels like
+                  </li>
+                  <li className="m-2 text-secondary" style={{fontSize:"1.3vw"}}>The Details are not the details which makes the details</li>
+                  <li className="m-2 text-secondary"   style={{fontSize:"1.3vw"}}>Good design does not date. Bad design does</li>
+                  <li className="m-2 text-secondary" style={{fontSize:"1.3vw"}}>Design is not just what is looks and feels like</li>
+                 
+                </ol>
+                <button
+            className="btn text-white btn-danger"
+            style={{ fontSize: "large", backgroundColor: "crimson",width:"20vw" }}
+          >
+           View Portfolio
+            <i className="fa fa-long-arrow-right ml-1" style={{ fontSize: "1.5vw" }}></i>
+          </button>
+                
                 {/* end features grid */}
               </div>
             </div>
@@ -212,16 +182,30 @@ export default function Portfolio() {
     >
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={d1} alt="" width="300" className="p-1" />
+          <img src={d1} alt="" width="250" className="p-1" />
         </div>
         <div className="col-md-4">
-          <img src={d3} alt="" width="300" className="p-1"/>
+          <img src={d3} alt="" width="250" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={d4} alt="" width="300" className="p-1"/>
+          <img src={d4} alt="" width="250" className="p-1"/>
         </div>
       </div>
-    </div>
+   
+   
+      <div className="row mt-4">
+        <div className="col-md-4">
+          <img src={d5} alt="" width="250" className="p-1" />
+        </div>
+        <div className="col-md-4">
+          <img src={d3} alt="" width="250" className="p-1"/>
+        </div>
+        <div className="col-md-4">
+          <img src={d4} alt="" width="250" className="p-1"/>
+        </div>
+      </div>
+      </div>
+  
     <div
       className="col-md-12 tab-pane fade mb-5" 
       id="about2"
@@ -230,16 +214,28 @@ export default function Portfolio() {
     >
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={br2} alt="" width="300" className="p-1" />
+          <img src={br2} alt="" width="250" className="p-1" />
         </div>
         <div className="col-md-4">
-          <img src={br3} alt="" width="300" className="p-1"/>
+          <img src={br3} alt="" width="250" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={br1} alt="" width="300" className="p-1"/>
+          <img src={br1} alt="" width="250" className="p-1"/>
+        </div>
+      </div>
+      <div className="row mt-4">
+        <div className="col-md-4">
+          <img src={br4} alt="" width="250" className="p-1" />
+        </div>
+        <div className="col-md-4">
+          <img src={br5} alt="" width="250" className="p-1"/>
+        </div>
+        <div className="col-md-4">
+          <img src={br1} alt="" width="250" className="p-1"/>
         </div>
       </div>
     </div>
+    
     <div
       className="col-md-12 tab-pane fade mb-5"
       id="contact3"
@@ -248,16 +244,28 @@ export default function Portfolio() {
     >
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={ph1} alt="" width="300" className="p-1"/>
+          <img src={ph1} alt="" width="250" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={ph2} alt="" width="300" className="p-1"/>
+          <img src={ph2} alt="" width="250" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={ph3} alt="" width="300" className="p-1"/>
+          <img src={ph3} alt="" width="250" className="p-1"/>
+        </div>
+      </div>
+      <div className="row mt-4">
+        <div className="col-md-4">
+          <img src={ph4} alt="" width="250" className="p-1"/>
+        </div>
+        <div className="col-md-4">
+          <img src={ph2} alt="" width="250" className="p-1"/>
+        </div>
+        <div className="col-md-4">
+          <img src={ph3} alt="" width="250" className="p-1"/>
         </div>
       </div>
     </div>
+    
   </div>
 </div>
 </div>
