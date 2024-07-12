@@ -2,7 +2,7 @@
     color: black;
     position: relative;
   }
-  .nav-link.active::after {
+.nav-link.active::after {
     margin-left:4.5vw;
     content: '';
     position: absolute;
@@ -67,4 +67,8 @@
   .about {
       display:"none"
   }
+}
+.active{
+  color:crimson;
+  
 }

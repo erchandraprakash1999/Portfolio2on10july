@@ -63,7 +63,8 @@ export default function Skills() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="container-fluid p-5" style={{ background: "#e7e7e7" }}>
+          <div className="container-fluid" style={{ background: "#e7e7e7" }}>
+          <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", border: "15px solid white" }}>
             <div className="row">
               {[
                 { icon: "instagram", title: "Thinking", text: "Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad." },
@@ -89,16 +90,16 @@ export default function Skills() {
               <div className="col-md-8">
 
             <div className="progress m-2">
-              <span className="h6 ml-2">TASK A</span><div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="50"></div>
+              <span className="h6 mr-2">TASK A</span><div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="50"></div>
             </div>
             <div className="progress m-2">
-            <span className="h6 ml-2">TASK B</span><div className="progress-bar bg-info" role="progressbar" style={{ width: "20%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="59"></div>
+            <span className="h6 mr-2">TASK B</span><div className="progress-bar bg-info" role="progressbar" style={{ width: "20%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="59"></div>
             </div>
             <div className="progress m-2">
-            <span className="h6 ml-2">TASK C</span> <div className="progress-bar bg-warning" role="progressbar" style={{ width: "25%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="600"></div>
+            <span className="h6 mr-2">TASK C</span> <div className="progress-bar bg-warning" role="progressbar" style={{ width: "25%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="600"></div>
             </div>
             <div className="progress m-2">
-            <span className="h6 ml-2">TASK D</span> <div className="progress-bar bg-danger" role="progressbar" style={{ width: "20%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="50"></div>
+            <span className="h6 mr-2">TASK D</span> <div className="progress-bar bg-danger" role="progressbar" style={{ width: "20%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="50"></div>
             </div>
            
 
@@ -108,6 +109,7 @@ export default function Skills() {
             <div className="row">
         
           <div className="col-md-12 d-flex justify-content-around mt-4">
+            <div className="col-md-6 col-xs-3 text-right">
             <AnimatedNumbers
               includeComma
               className="animated-numbers"
@@ -134,7 +136,8 @@ export default function Skills() {
                 color: "red",
               }}
             />
-           
+           </div>
+           <div className="col-md-6 col-xs-3  text-center">
        
       
             <AnimatedNumbers
@@ -164,7 +167,9 @@ export default function Skills() {
               }}
             />
           </div>
+          </div>
        
+        </div>
         </div>
         </div>
         
