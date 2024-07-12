@@ -87,21 +87,21 @@ export default function Portfolio() {
             <div className="middle-block">
               <div className="width-90 md-width-100">
                 
-                <p className="col-8 mt-3" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
+                <p className="col-md-8 col-sm-10 mt-3" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
                 Education is not the learning of facts, but the training of the mind to think. Education is a gift that none can take away. I am still learning every day.
           </p>
                 {/* features grid */}
                 <ol className="text-left text-danger" style={{listStyle:"outside"}}>
-                  <li className="m-2 text-secondary" style={{fontSize:"1.3vw "}}>Design is not just what is looks and feels like
+                  <li className="m-2 text-secondary" style={{fontSize:"small "}}>Design is not just what is looks and feels like
                   </li>
-                  <li className="m-2 text-secondary" style={{fontSize:"1.3vw"}}>The Details are not the details which makes the details</li>
-                  <li className="m-2 text-secondary"   style={{fontSize:"1.3vw"}}>Good design does not date. Bad design does</li>
-                  <li className="m-2 text-secondary" style={{fontSize:"1.3vw"}}>Design is not just what is looks and feels like</li>
+                  <li className="m-2 text-secondary" style={{fontSize:"small"}}>The Details are not the details which makes the details</li>
+                  <li className="m-2 text-secondary"   style={{fontSize:"small"}}>Good design does not date. Bad design does</li>
+                  <li className="m-2 text-secondary" style={{fontSize:"small"}}>Design is not just what is looks and feels like</li>
                  
                 </ol>
                 <button
-            className="btn text-white btn-danger"
-            style={{ fontSize: "large", backgroundColor: "crimson",width:"20vw" }}
+            className="btn text-white btn-danger w-50 m-3"
+            style={{ fontSize: "large", backgroundColor: "crimson" }}
           >
            View Portfolio
             <i className="fa fa-long-arrow-right ml-1" style={{ fontSize: "1.5vw" }}></i>
