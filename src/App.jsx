@@ -11,21 +11,23 @@ import Portfolio from "./Components/Portfolio";
 import Awards from "./Components/Awards";
 import Contact from "./Components/Contact";
 import Blog from "./Components/Blog";
+import All from "./Components/All";
+
 function App() {
   return (
     <BrowserRouter>
-      <Navbar></Navbar>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/about" element={<About></About>}></Route>
-        <Route path="/skills" element={<Skills></Skills>}></Route>
-        <Route path="/education" element={<Education></Education>}></Route>
-        <Route path="/employment" element={<Employment></Employment>}></Route>
-        <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
-
-        <Route path="/awards" element={<Awards></Awards>}></Route>
-        <Route path="/contact" element={<Contact></Contact>}></Route>
-        <Route path="/blog" element={<Blog></Blog>}></Route>
+        <Route path="/" element={<All />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/employment" element={<Employment />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/awards" element={<Awards />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );

@@ -126,7 +126,7 @@
   background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
   background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
 }
-body{margin-top:20px;}
+
 .blog-listing {
     padding-top: 30px;
     padding-bottom: 30px;
