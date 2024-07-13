@@ -36,7 +36,7 @@ export default function About() {
       style={{
         backgroundColor: "#f5f3f3",
         maxHeight:"95vh",
-        minHeight:"80vh",
+        
         borderTop: "15px",
         borderBottom: "15px",
         borderRight: "25px",
@@ -60,7 +60,7 @@ export default function About() {
             backgroundSize: "cover",
           }}
         >
-          <table className="table table-responsive">
+          <table className="table table-responsive col-md-12 col-sm-12 col-12">
             <tbody>
               <tr>
                 <td className="font-weight-bold">Name:</td>
@@ -107,7 +107,7 @@ export default function About() {
           <p className="col-12 text-left" style={{ fontWeight: "lighter", fontFamily: "cursive" }}>
             I'm a UI/UX Designer & Frontend Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.
           </p>
-          <p className="col-8" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
+          <p className="col-md-8 col-xs-12 col-sm-12 col-12" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
             Worked with project teams to create user-friendly and appealing application interfaces and websites for users. Met with project manager, business analyst and architect right from beginning of project, creating rough mock-ups that were refined and extended over many iterations. Adjustments to mock-ups as necessary to address problems encountered.
           </p>
         </div>

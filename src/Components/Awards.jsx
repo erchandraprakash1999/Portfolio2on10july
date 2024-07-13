@@ -49,10 +49,10 @@ export default function Awards() {
               }}
             >
               <div className="row" >
-                <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center">
+                <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" style={{borderRight:"2px black solid"}}>
                   <span
                     id="rt"
-                    style={{ fontSize: "3vw", fontWeight: "bolder" }}
+                    style={{ fontSize: "3vw", fontWeight: "bolder", }}
                   >
                     awards
                   </span>

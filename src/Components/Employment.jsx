@@ -44,8 +44,8 @@ export default function Employment() {
         borderStyle: "solid",
       }}
     >
-      <div className="row " style={{maxHeight:"85vh",overflow:"scroll"}}>
-        <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center">
+      <div className="row " style={{maxHeight:"85vh",overflow:"scroll",}}>
+        <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" style={{borderRight:"2px black solid"}} >
           <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>employment</span>
         </div>
 

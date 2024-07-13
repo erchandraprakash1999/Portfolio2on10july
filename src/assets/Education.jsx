@@ -49,18 +49,18 @@ export default function Education() {
           <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>education</span>
         </div>
 
-        <div className="col-md-5 col-sm-5 col-6" style={{borderLeft:"2px black solid"}} >
+        <div className="col-md-5 col-sm-5 col-6" style={{borderLeft:"2px black solid",borderRight:"2px black solid"}} >
         <img src={zayn} alt="" style={{ width: "100%", height: "100%", backgroundPosition: "bottom" }} />
               </div>
              
-              <div className="col-md-6 col-sm-6 col-6 sm-height-auto sm-no-padding-lr">
-      <div className="slimScrollDiv" style={{ position: 'relative', overflow: 'hidden', width: 'auto',  }}>
+              <div className="col-md-6 col-sm-6 col-6 sm-height-auto sm-no-padding-lr" >
+      <div className="slimScrollDiv" style={{ position: 'relative', overflow: 'hidden', width: 'auto', }}>
         <div className="mCustomScrollbar" style={{ overflow: 'hidden', width: 'auto',  }}>
           <div className="center-block padding-twelve-lr padding-five-tb md-padding-five-left md-no-padding-right sm-padding-ten-lr xs-no-padding-lr">
             <div className="middle-block">
               <div className="width-90 md-width-100">
                 
-                <p className="col-10 mt-3" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
+                <p className="col-md-12 col-12" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
                 Education is not the learning of facts, but the training of the mind to think. Education is a gift that none can take away. I am still learning every day.
           </p>
                 {/* features grid */}
@@ -69,7 +69,7 @@ export default function Education() {
   <li className="margin-four-bottom xs-margin-five-bottom">
     <div className="d-flex flex-md-row flex-column align-items-md-center">
   
-      <div className="col-md-10 col-sm-10 col-xs-12 xs-no-padding">
+      <div className="col-md-12 " >
         <h3 className="text-small font-weight-700 margin-5px-bottom text-dark">University of Design</h3>
         <span className="text-small text-light-gray display-inline-block text-dark line-height26">Visual art & Design<br />2011 - 2012</span>
       </div>
@@ -80,7 +80,7 @@ export default function Education() {
   <li className="margin-four-bottom xs-margin-five-bottom">
     <div className="d-flex flex-md-row flex-column align-items-md-center">
     
-      <div className="col-md-10 col-sm-10 col-xs-12 xs-no-padding">
+      <div className="col-md-12">
         <h3 className="text-small font-weight-700 margin-5px-bottom text-dark">Boston University</h3>
         <span className="text-small text-light-gray display-inline-block text-dark line-height26">Visual art & Design<br />2011 - 2012</span>
       </div>
@@ -91,7 +91,7 @@ export default function Education() {
   <li className="margin-four-bottom xs-margin-five-bottom">
     <div className="d-flex flex-md-row flex-column align-items-md-center">
      
-      <div className="col-md-10 col-sm-10 col-xs-12 xs-no-padding">
+      <div className="col-md-12">
         <h3 className="text-small font-weight-700 margin-5px-bottom text-dark">Boston University</h3>
         <span className="text-small text-light-gray display-inline-block text-dark line-height26">Degree of Design<br />2009 - 2011</span>
       </div>
@@ -102,7 +102,7 @@ export default function Education() {
   <li>
     <div className="d-flex flex-md-row flex-column align-items-md-center">
       
-      <div className="col-md-10 col-sm-10 col-xs-12 xs-no-padding">
+      <div className="col-md-12">
         <h3 className="text-small font-weight-700 margin-5px-bottom text-dark">Design University</h3>
         <span className="text-small text-light-gray display-inline-block line-height26 text-dark">Degree of Web Design<br />2007 - 2009</span>
       </div>

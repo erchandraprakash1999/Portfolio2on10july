@@ -74,7 +74,7 @@ export default function Portfolio() {
                   style={{ width: "100%" ,backgroundPosition: "bottom", }}
                 />
               </div>
-              <div className="col-md-6 col-sm-6 col-6 sm-height-auto sm-no-padding-lr">
+              <div className="col-md-6 col-sm-6 col-6 sm-height-auto sm-no-padding-lr" style={{borderLeft:"2px black solid"}}>
               <h1
                     style={{ fontSize: "4vw", fontWeight: "bolder" }}
                     className="text-dark p-3 mt-4 mb-4"
