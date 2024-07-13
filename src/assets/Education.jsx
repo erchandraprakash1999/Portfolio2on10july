@@ -45,11 +45,11 @@ export default function Education() {
       }}
     >
       <div className="row">
-        <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center">
+        <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" style={{maxHeight:"80vh"}}>
           <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>education</span>
         </div>
 
-        <div className="col-md-5 col-sm-5 col-6 p-4" style={{borderLeft:"2px black solid"}} >
+        <div className="col-md-5 col-sm-5 col-6" style={{borderLeft:"2px black solid"}} >
         <img src={zayn} alt="" style={{ width: "100%", height: "100%", backgroundPosition: "bottom" }} />
               </div>
              

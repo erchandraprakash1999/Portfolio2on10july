@@ -30,7 +30,7 @@ export default function Home() {
       >
          <SwiperSlide>
           <div className="container-fluid " style={{background:"#e7e7e7"}}>
-          <div className="container mt-0 " style={{backgroundColor:"#f5f3f3", height:"80vh",borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"}}>
+          <div className="container mt-0 " style={{backgroundColor:"#f5f3f3", maxHeight:"80vh",borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"}}>
             <div className="row">
               <div className="col-md-6 mt-2 col-sm-6 col-6">
                 <div
@@ -59,7 +59,7 @@ export default function Home() {
 </div>
                 
               </div>
-              <div className="col-md-6 col-sm-6 col-6 p-4" style={{ borderLeft: "2px black solid" }}>
+              <div className="col-md-6 col-sm-6 col-6" style={{ borderLeft: "2px black solid" }}>
                   <img src={zayn} alt="" style={{ width: "100%", height: "100%", backgroundPosition: "bottom" }} />
                 </div>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
        
         <SwiperSlide>
           <div className="container-fluid " style={{background:"#e7e7e7"}}>
-          <div className="container mt-0 " style={{backgroundColor:"#f5f3f3", height:"80vh",borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"}}>
+          <div className="container mt-0 " style={{backgroundColor:"#f5f3f3", maxHeight:"80vh",borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"}}>
             <div className="row">
               <div className="col-md-6 mt-2 col-sm-6 col-6">
                 <div
@@ -94,14 +94,14 @@ export default function Home() {
                   <button className="btn bg-dark text-white px-4 mt-4" style={{fontSize:"large"}}>Read More <i className="fa fa-long-arrow-right ml-1 " style={{fontSize:"1.5vw"}}></i></button></div>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-6 col-6 p-4" style={{borderLeft:"2px black solid"}} >
+              <div className="col-md-6 col-sm-6 col-6" style={{borderLeft:"2px black solid"}} >
               <img
                   src={zaynb}
                   alt=""
                 
                   
-                  className="ml-4"
-                  style={{ width: "80%",height:"60vh" ,backgroundPosition: "bottom", }}
+                  className=""
+                  style={{ width: "100%",height:"100%" ,backgroundPosition: "bottom", }}
                 />
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function Home() {
 
         <SwiperSlide>
           <div className="container-fluid " style={{background:"#e7e7e7"}}>
-          <div className="container mt-0 " style={{backgroundColor:"#f5f3f3", height:"80vh",borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"}}>
+          <div className="container mt-0 " style={{backgroundColor:"#f5f3f3", maxHeight:"80vh",borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"}}>
             <div className="row">
               <div className="col-md-6 mt-2 col-sm-6 col-6">
                 <div
@@ -135,15 +135,15 @@ export default function Home() {
                   <button className="btn bg-dark text-white px-4 mt-4" style={{fontSize:"large"}}>Read More <i className="fa fa-long-arrow-right ml-1 " style={{fontSize:"1.5vw"}}></i></button></div>
                 </div>
               </div>
-              <div className="col-md-6 col-sm-6 col-6 p-4" style={{borderLeft:"2px black solid"}} >
+              <div className="col-md-6 col-sm-6 col-6" style={{borderLeft:"2px black solid"}} >
               <img
-                  src={zaync}
+                  src={zaynb}
                   
                   alt=""
                 
                   
-                  className="ml-4"
-                  style={{ width:"80%",height:"60vh" ,backgroundPosition: "top center"}}
+                  className=""
+                  style={{ width:"100%",height:"100%" ,backgroundPosition: "top center"}}
                 />
               </div>
             </div>

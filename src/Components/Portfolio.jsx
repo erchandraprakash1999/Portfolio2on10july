@@ -59,7 +59,7 @@ export default function Portfolio() {
         borderStyle: "solid",
       }}
     >
-      <div className="row">
+      <div className="row" style={{maxHeight:"85vh",overflow:"scroll"}}>
         <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center">
           <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>Portfolio</span>
         </div>
@@ -120,7 +120,7 @@ export default function Portfolio() {
   </div>
 </SwiperSlide>
 <SwiperSlide>
-<div className="container-fluid p-4" style={{ background: "#e7e7e7" }}>
+<div className="container-fluid p-4" style={{ background: "#e7e7e7",maxHeight:"85vh",overflow:"scroll"}}>
     <div
       className="container mt-0"
       style={{
@@ -182,26 +182,26 @@ export default function Portfolio() {
     >
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={d1} alt="" width="250" className="p-1" />
+          <img src={d1} alt="" width="90" className="p-1" />
         </div>
         <div className="col-md-4">
-          <img src={d3} alt="" width="250" className="p-1"/>
+          <img src={d3} alt="" width="90" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={d4} alt="" width="250" className="p-1"/>
+          <img src={d4} alt="" width="90" className="p-1"/>
         </div>
       </div>
    
    
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={d5} alt="" width="250" className="p-1" />
+          <img src={d5} alt="" width="90" className="p-1" />
         </div>
         <div className="col-md-4">
-          <img src={d3} alt="" width="250" className="p-1"/>
+          <img src={d3} alt="" width="90" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={d4} alt="" width="250" className="p-1"/>
+          <img src={d4} alt="" width="90" className="p-1"/>
         </div>
       </div>
       </div>
@@ -214,24 +214,24 @@ export default function Portfolio() {
     >
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={br2} alt="" width="250" className="p-1" />
+          <img src={br2} alt="" width="90" className="p-1" />
         </div>
         <div className="col-md-4">
-          <img src={br3} alt="" width="250" className="p-1"/>
+          <img src={br3} alt="" width="90" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={br1} alt="" width="250" className="p-1"/>
+          <img src={br1} alt="" width="90" className="p-1"/>
         </div>
       </div>
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={br4} alt="" width="250" className="p-1" />
+          <img src={br4} alt="" width="90" className="p-1" />
         </div>
         <div className="col-md-4">
-          <img src={br5} alt="" width="250" className="p-1"/>
+          <img src={br5} alt="" width="90" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={br1} alt="" width="250" className="p-1"/>
+          <img src={br1} alt="" width="90" className="p-1"/>
         </div>
       </div>
     </div>
@@ -244,24 +244,24 @@ export default function Portfolio() {
     >
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={ph1} alt="" width="250" className="p-1"/>
+          <img src={ph1} alt="" width="90" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={ph2} alt="" width="250" className="p-1"/>
+          <img src={ph2} alt="" width="90" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={ph3} alt="" width="250" className="p-1"/>
+          <img src={ph3} alt="" width="90" className="p-1"/>
         </div>
       </div>
       <div className="row mt-4">
         <div className="col-md-4">
-          <img src={ph4} alt="" width="250" className="p-1"/>
+          <img src={ph4} alt="" width="90" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={ph2} alt="" width="250" className="p-1"/>
+          <img src={ph2} alt="" width="90" className="p-1"/>
         </div>
         <div className="col-md-4">
-          <img src={ph3} alt="" width="250" className="p-1"/>
+          <img src={ph3} alt="" width="90" className="p-1"/>
         </div>
       </div>
     </div>

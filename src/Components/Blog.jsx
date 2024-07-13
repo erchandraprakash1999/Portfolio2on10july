@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div>
             <div className="container-fluid " style={{background:"#e7e7e7"}}>
-            <div className="container mt-0 " style={{backgroundColor:"#f5f3f3", borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"}}>
+            <div className="container mt-0 " style={{backgroundColor:"#f5f3f3", borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid",  }}>
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossOrigin="anonymous" />
       <section className="blog-listing gray-bg">
         <div className="container">

@@ -44,7 +44,7 @@ export default function Employment() {
         borderStyle: "solid",
       }}
     >
-      <div className="row">
+      <div className="row " style={{maxHeight:"85vh",overflow:"scroll"}}>
         <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center">
           <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>employment</span>
         </div>
@@ -120,7 +120,7 @@ export default function Employment() {
       </div>
     </div>
     <div className="col-md-5 col-sm-5 col-6 p-4 " style={{borderLeft:"2px black solid"}} >
-        <div className="row d-flex justify-content-center align-items-center" style={{height:"100vh"}}>
+        <div className="row d-flex justify-content-center align-items-center" style={{height:"80vh"}}>
         <div className="col-md-8" >
               <img
                   src={zayn}
@@ -128,7 +128,7 @@ export default function Employment() {
                 
                   
                   
-                  style={{ width: "100%",height:"95vh",backgroundPosition: "bottom", }}
+                  style={{ width: "100%",height:"70vh",backgroundPosition: "bottom", }}
                 />
                 </div>
                 <div className="col-md-4 text-left"  >

@@ -32,13 +32,13 @@ export default function Skills() {
       >
         <SwiperSlide>
           <div className="container-fluid" style={{ background: "#e7e7e7" }}>
-            <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", height: "80vh", border: "15px solid white" }}>
+            <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", maxHeight:"80vh", border: "15px solid white", overflow:'scroll' }}>
               <div className="row">
                 <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" id="rt2">
                   <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>Skills</span>
                 </div>
                 <div className="col-md-5 mt-2 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center" style={{ height: "70vh" }}>
-                  <div className="text-center" style={{ height: "70vh", overflowY: "scroll" }}>
+                  <div className="text-center" style={{ height: "70vh",  }}>
                     <h3 style={{ fontSize: "2vw", fontWeight: "bolder" }} className="text-dark p-3 mb-4">
                       Good Design Keeps the User Happy, the Manufacturer in the Black and the Aesthete Unoffended.
                     </h3>
@@ -54,7 +54,7 @@ export default function Skills() {
                     </button>
                   </div>
                 </div>
-                <div className="col-md-6 col-sm-6 col-6 p-4" style={{ borderLeft: "2px black solid" }}>
+                <div className="col-md-6 col-sm-6 col-6" style={{ borderLeft: "2px black solid" }}>
                   <img src={zayn} alt="" style={{ width: "100%", height: "100%", backgroundPosition: "bottom" }} />
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function Skills() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="container-fluid" style={{ background: "#e7e7e7" }}>
+          <div className="container-fluid" style={{ background: "#e7e7e7" ,maxHeight:"80vh"}}>
           <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", border: "15px solid white" }}>
             <div className="row">
               {[
@@ -87,7 +87,7 @@ export default function Skills() {
               ))}
             </div>
             <div className="row">
-              <div className="col-md-8">
+              <div className="col-md-8 mb-2">
 
             <div className="progress m-2">
               <span className="h6 mr-2">TASK A</span><div className="progress-bar bg-success" role="progressbar" style={{ width: "25%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="50"></div>
@@ -109,7 +109,7 @@ export default function Skills() {
             <div className="row">
         
           <div className="col-md-12 d-flex justify-content-around mt-4">
-            <div className="col-md-6 col-xs-3 text-right">
+            <div className="col-md-6 col-xs-3 text-right mb-3 text-center">
             <AnimatedNumbers
               includeComma
               className="animated-numbers"

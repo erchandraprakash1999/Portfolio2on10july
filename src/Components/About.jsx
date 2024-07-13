@@ -30,21 +30,23 @@ export default function About() {
         className="mySwiper"
       >
        <SwiperSlide>
-  <div className="container-fluid" style={{ background: "#e7e7e7" }}>
+  <div className="container-fluid " style={{ background: "#e7e7e7" }}>
     <div
       className="container mt-0"
       style={{
         backgroundColor: "#f5f3f3",
-        height: "90vh",
+        maxHeight:"95vh",
+        minHeight:"80vh",
         borderTop: "15px",
         borderBottom: "15px",
         borderRight: "25px",
         borderLeft: "25px",
         borderColor: "white",
         borderStyle: "solid",
+        overflow:"scroll",
       }}
     >
-      <div className="row">
+      <div className="row" >
         <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center">
           <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>about_me</span>
         </div>
@@ -98,7 +100,7 @@ export default function About() {
 
         <div
           className="col-md-6 col-sm-7 col-6 px-0"
-          style={{ borderLeft: "0.5px black solid", overflowY: "scroll", height: "70vh" }}
+          style={{ borderLeft: "0.5px black solid" }}
         >
           <h3 className="px-5 pt-5 pb-0 ml-0 bg-warning text-white col-12" style={{ fontSize: "5vw", fontWeight: "bolder" }}>short History</h3>
           <i className="fas fa-comment-dots m-4 text-danger"></i>

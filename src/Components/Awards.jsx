@@ -39,16 +39,16 @@ export default function Awards() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="container-fluid" style={{ background: "#e7e7e7" }}>
+          <div className="container-fluid" style={{ background: "#e7e7e7"}} >
             <div
               className="container mt-0"
-              style={{
+              style={{  maxHeight:"80vh",overflow:"scroll",
                 backgroundColor: "#f5f3f3",
-                height: "80vh",
+             
                 border: "15px solid white",
               }}
             >
-              <div className="row">
+              <div className="row" >
                 <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center">
                   <span
                     id="rt"
@@ -135,7 +135,7 @@ export default function Awards() {
         </SwiperSlide>
         <SwiperSlide>
         <div className="container-fluid " style={{background:"#e7e7e7"}}>
-        <div className="container mt-0 " style={{backgroundColor:"#f5f3f3",borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"}}>
+        <div className="container mt-0 " style={{backgroundColor:"#f5f3f3",borderTop:"15px",borderBottom:"15px",borderRight:"25px",borderLeft:"25px",borderColor:"white",borderStyle: "solid"  ,maxHeight:"80vh",overflow:"scroll",}}>
         <section className="slider container mb-3">
   <Carousel className="custom-carousel">
     <Carousel.Item className="slide pt-5">
