@@ -59,16 +59,9 @@ export default function Home() {
 </div>
                 
               </div>
-              <div className="col-md-6 col-sm-6 col-6 p-4" style={{borderLeft:"2px black solid"}} >
-              <img
-                  src={zayn}
-                  alt=""
-                
-                  
-                  className="ml-4"
-                  style={{ width: "80%",height:"60vh" ,backgroundPosition: "bottom", }}
-                />
-              </div>
+              <div className="col-md-6 col-sm-6 col-6 p-4" style={{ borderLeft: "2px black solid" }}>
+                  <img src={zayn} alt="" style={{ width: "100%", height: "100%", backgroundPosition: "bottom" }} />
+                </div>
             </div>
           </div>
           </div>

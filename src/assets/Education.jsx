@@ -50,15 +50,9 @@ export default function Education() {
         </div>
 
         <div className="col-md-5 col-sm-5 col-6 p-4" style={{borderLeft:"2px black solid"}} >
-              <img
-                  src={zayn}
-                  alt=""
-                
-                  
-                  className="ml-4"
-                  style={{ width: "100%" ,backgroundPosition: "bottom", }}
-                />
+        <img src={zayn} alt="" style={{ width: "100%", height: "100%", backgroundPosition: "bottom" }} />
               </div>
+             
               <div className="col-md-6 col-sm-6 col-6 sm-height-auto sm-no-padding-lr">
       <div className="slimScrollDiv" style={{ position: 'relative', overflow: 'hidden', width: 'auto',  }}>
         <div className="mCustomScrollbar" style={{ overflow: 'hidden', width: 'auto',  }}>

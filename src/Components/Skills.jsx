@@ -34,7 +34,7 @@ export default function Skills() {
           <div className="container-fluid" style={{ background: "#e7e7e7" }}>
             <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", height: "80vh", border: "15px solid white" }}>
               <div className="row">
-                <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center">
+                <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" id="rt2">
                   <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>Skills</span>
                 </div>
                 <div className="col-md-5 mt-2 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center" style={{ height: "70vh" }}>
@@ -55,7 +55,7 @@ export default function Skills() {
                   </div>
                 </div>
                 <div className="col-md-6 col-sm-6 col-6 p-4" style={{ borderLeft: "2px black solid" }}>
-                  <img src={zayn} alt="" className="ml-4" style={{ width: "80%", height: "60vh", backgroundPosition: "bottom" }} />
+                  <img src={zayn} alt="" style={{ width: "100%", height: "100%", backgroundPosition: "bottom" }} />
                 </div>
               </div>
             </div>
