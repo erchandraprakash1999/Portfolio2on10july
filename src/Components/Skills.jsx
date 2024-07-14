@@ -32,7 +32,7 @@ export default function Skills() {
       >
         <SwiperSlide>
           <div className="container-fluid" style={{ background: "#e7e7e7" }}>
-            <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", maxHeight:"80vh", border: "15px solid white", overflow:'scroll' }}>
+            <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", maxHeight:"80vh", border: "15px solid white" }}>
               <div className="row">
                 <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" id="rt2" style={{borderRight:"2px black solid"}}>
                   <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>Skills</span>

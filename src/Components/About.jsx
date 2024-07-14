@@ -99,15 +99,15 @@ export default function About() {
         </div>
 
         <div
-          className="col-md-6 col-sm-7 col-6 px-0"
+          className="col-md-6 col-sm-7 px-0 col-7"
           style={{ borderLeft: "0.5px black solid" }}
         >
-          <h3 className="px-5 pt-5 pb-0 ml-0 bg-warning text-white col-12" style={{ fontSize: "5vw", fontWeight: "bolder" }}>short History</h3>
+          <h3 className="px-5 pt-5 pb-0 ml-0 bg-warning text-white col-12 col-sm-12" style={{ fontSize: "5vw", fontWeight: "bolder" }}>short History</h3>
           <i className="fas fa-comment-dots m-4 text-danger"></i>
           <p className="col-12 text-left" style={{ fontWeight: "lighter", fontFamily: "cursive" }}>
             I'm a UI/UX Designer & Frontend Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.
           </p>
-          <p className="col-md-8 col-xs-12 col-sm-12 col-12" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
+          <p className="col-12 col-lg-8 col-sm-12" style={{ fontSize: "300", fontWeight: "normal", fontFamily: "monospace" }}>
             Worked with project teams to create user-friendly and appealing application interfaces and websites for users. Met with project manager, business analyst and architect right from beginning of project, creating rough mock-ups that were refined and extended over many iterations. Adjustments to mock-ups as necessary to address problems encountered.
           </p>
         </div>

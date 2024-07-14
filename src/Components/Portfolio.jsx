@@ -120,11 +120,13 @@ export default function Portfolio() {
   </div>
 </SwiperSlide>
 <SwiperSlide>
-<div className="container-fluid p-4" style={{ background: "#e7e7e7",maxHeight:"85vh",overflow:"scroll"}}>
+<div className="container-fluid p-4" style={{ background: "#e7e7e7"}}>
     <div
       className="container mt-0"
       style={{
         backgroundColor: "#f5f3f3",
+        
+       
        
         borderTop: "15px",
         borderBottom: "15px",

@@ -58,11 +58,11 @@ export default function Awards() {
                   </span>
                 </div>
                 <div
-                  className="col-md-5 mt-2 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center"
+                  className="col-md-5 mt-2 col-sm-6 col-6 "
                   style={{ height: "70vh" }}
                 >
                   <div
-                    className="text-center"
+                    className="text-left d-flex flex-column justify-content-between align-items-center"
                     style={{ height: "70vh", overflowY: "scroll" }}
                   >
                     <h1
@@ -85,7 +85,7 @@ export default function Awards() {
                       clickable prototypes when needed.
                     </p>
 
-                    <div className="d-flex justify-content-center align-items-center">
+                    <div className="d-flex justify-content-center align-items-center mb-5">
                       <img
                         src={award1}
                         alt=""
@@ -99,7 +99,7 @@ export default function Awards() {
                         style={{ width: "50%" }}
                       />
                     </div>
-                    <div className="d-flex justify-content-center align-items-center">
+                    <div className="d-flex justify-content-center align-items-center mb-5">
                       <img
                         src={award3}
                         alt=""

@@ -61,7 +61,7 @@ export default function Employment() {
                 Education is not the learning of facts, but the training of the mind to think. Education is a gift that none can take away. I am still learning every day.
           </p>
                 {/* features grid */}
-                <ol className="text-danger text-left" style={{listStyle:"none"}}>
+                <ol className="text-danger text-left d-flex flex-column justify-content-center align-items-center " style={{listStyle:"none"}}>
   {/* features item */}
   <li className="margin-four-bottom xs-margin-five-bottom mt-4">
     <div className="d-flex flex-md-row flex-column align-items-md-center">

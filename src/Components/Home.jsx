@@ -34,8 +34,8 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 mt-2 col-sm-6 col-6">
                 <div
-                  className="text-left "
-                  style={{ height: "70vh", overflowY: "scroll" }}
+                  className=" d-flex justify-content-center align-items-center flex-column"
+                  style={{ height: "70vh", overflowY: "scroll",}}
                 >
                   <h1
                     style={{ fontSize: "4vw", fontWeight: "bolder" }}
@@ -74,7 +74,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 mt-2 col-sm-6 col-6">
                 <div
-                  className="text-left "
+                  className=" d-flex justify-content-center align-items-center flex-column p-3"
                   style={{ height: "70vh", overflowY: "scroll" }}
                 >
                   <h1
@@ -115,7 +115,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 mt-2 col-sm-6 col-6">
                 <div
-                  className="text-left "
+                  className="d-flex justify-content-center align-items-center flex-column "
                   style={{ height: "70vh", overflowY: "scroll" }}
                 >
                   <h1
