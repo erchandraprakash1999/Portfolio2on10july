@@ -85,6 +85,8 @@ const Navbar = () => {
                       exact
                       to="/"
                       className="nav-link "
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       style={{ fontFamily: "monospace" }}
                       // Ensure active class is applied correctly
                     >
@@ -94,6 +96,8 @@ const Navbar = () => {
                   <li className="nav-item mb-1">
                     <NavLink
                       to="/about"
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       className="nav-link "
                       style={{ fontFamily: "monospace" }}
                       // Ensure active class is applied correctly
@@ -104,6 +108,8 @@ const Navbar = () => {
                   <li className="nav-item mb-1">
                     <NavLink
                       to="/skills"
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       className="nav-link"
                       style={{ fontFamily: "monospace" }}
                     >
@@ -113,6 +119,8 @@ const Navbar = () => {
                   <li className="nav-item mb-1">
                     <NavLink
                       to="/education"
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       className="nav-link "
                       style={{ fontFamily: "monospace" }}
                     >
@@ -122,6 +130,8 @@ const Navbar = () => {
                   <li className="nav-item mb-1">
                     <NavLink
                       to="/employment"
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       className="nav-link "
                       style={{ fontFamily: "monospace" }}
                     >
@@ -131,6 +141,8 @@ const Navbar = () => {
                   <li className="nav-item mb-1">
                     <NavLink
                       to="/portfolio"
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       className="nav-link"
                       style={{ fontFamily: "monospace" }}
                     >
@@ -140,6 +152,8 @@ const Navbar = () => {
                   <li className="nav-item mb-1">
                     <NavLink
                       to="/awards"
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       className="nav-link "
                       style={{ fontFamily: "monospace" }}
                     >
@@ -149,6 +163,8 @@ const Navbar = () => {
                   <li className="nav-item mb-1">
                     <NavLink
                       to="/blog"
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       className="nav-link "
                       style={{ fontFamily: "monospace" }}
                     >
@@ -158,6 +174,9 @@ const Navbar = () => {
                   <li className="nav-item mb-1">
                     <NavLink
                       to="/contact"
+
+                      data-toggle="collapse"
+            data-target="#collapsibleNavbar"
                       className="nav-link"
                       style={{ fontFamily: "monospace" }}
                     >

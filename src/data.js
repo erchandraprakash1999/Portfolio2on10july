@@ -10,7 +10,8 @@ import awardc from './assets/awardc.jpg';
 import awarda from './assets/awarda.jpg';
 import awardb from './assets/awardb.jpg';
 import good from './assets/good.jpg';
-import tryout2 from './assets/tryout2.jpg';
+import tryout1 from './assets/good.jpg';
+import tryout2 from './assets/goodqzayn.jpg';
 import d1 from './assets/d1.jpg';
 import d2 from './assets/d2.jpg';
 import d3 from './assets/d3.jpg';
@@ -105,7 +106,7 @@ const data = {
     title: "Portfolio",
     heading: "Other Things I have Designed.",
     introParagraph: "Education is not the learning of facts, but the training of the mind to think. Education is a gift that none can take away. I am still learning every day.",
-    image: tryout2,
+    image: tryout1,
     designs: [
       "Design is not just what it looks and feels like.",
       "The details are not the details. They make the design.",

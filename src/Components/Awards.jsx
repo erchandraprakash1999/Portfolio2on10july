@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-import data from '../data.json';
+import data from '../data.js';
 
 export default function Awards() {
   const [awardSections, setAwardSections] = useState([]);
@@ -47,7 +47,7 @@ export default function Awards() {
                         awards
                       </span>
                     </div>
-                    <div className="col-md-5 mt-2 col-sm-6 col-6" style={{ height: "70vh" }}>
+                    <div className="col-md-5 mt-2 col-sm-12 col-12" style={{ height: "70vh",overflowY:"scroll" }}>
                       <div
                         className="text-left d-flex flex-column justify-content-between align-items-center"
                         style={{ height: "70vh", overflowY: "scroll" }}
@@ -66,20 +66,20 @@ export default function Awards() {
                           {awardSections[0].description}
                         </p>
 
-                        <div className="d-flex justify-content-center align-items-center mb-5">
+                      
                           {awardSections[0].images && awardSections[0].images.map((imgSrc, index) => (
                             <img
                               key={index}
                               src={imgSrc}
                               alt={`Award ${index + 1}`}
-                              className="p-2"
+                              className="p-2 mb-5"
                               style={{ width: "50%" }}
                             />
                           ))}
-                        </div>
+                        
                       </div>
                     </div>
-                    <div className="col-md-6 col-sm-6 col-6 p-4" style={{ borderLeft: "2px black solid" }}>
+                    <div className="col-md-6 col-sm-12 col-12 p-4 mt-4" style={{ borderLeft: "2px black solid",overflow:"hidden" }}>
                       <img
                         src={awardSections[0].backgroundImage || zayn}
                         alt=""

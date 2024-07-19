@@ -32,8 +32,8 @@ import skillsData from '../data.js';
         className="mySwiper"
       >
         <SwiperSlide>
-        <div className="container-fluid" style={{ background: "#e7e7e7" }}>
-      <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", maxHeight: "80vh", border: "15px solid white" }}>
+        <div className="container-fluid" style={{ background: "#e7e7e7", }}>
+      <div className="container mt-0 d-flex justify-content-center align-items-between" style={{ backgroundColor: "#f5f3f3", minHeight: "85vh", border: "15px solid white" }}>
         <div className="row">
           <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" id="rt2" style={{ borderRight: "2px black solid" }}>
             <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>{title}</span>
@@ -56,7 +56,7 @@ import skillsData from '../data.js';
             </div>
           </div>
           <div className="col-md-6 col-sm-12 col-12" style={{ borderLeft: "2px black solid" }}>
-            <img src={image} alt="" style={{ width: "100%", backgroundPosition: "bottom" }} />
+            <img src={image} alt="" style={{ width: "100%",minHeight:"20rem", backgroundPosition: "bottom" }} />
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ import skillsData from '../data.js';
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="container-fluid" style={{ background: "#e7e7e7" ,maxHeight:"80vh"}}>
+          <div className="container-fluid" style={{ background: "#e7e7e7" ,maxHeight:"90vh",overflow:"scroll",border:"2px red solid"}}>
           <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", border: "15px solid white" }}>
             <div className="row">
               {[

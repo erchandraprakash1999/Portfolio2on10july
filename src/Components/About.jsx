@@ -29,7 +29,7 @@ export default function About() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="container-fluid" style={{ background: "#e7e7e7" }}>
+          <div className="container-fluid p-5" style={{ background: "#e7e7e7" }}>
             <div
               className="container mt-0"
               style={{
