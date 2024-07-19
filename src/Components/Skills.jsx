@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AnimatedNumbers from "react-animated-numbers";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -13,10 +12,12 @@ import sign from "../assets/realsign.jpg";
 
 import "../assets/styles.css";
 
-// import required modules
+
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
-export default function Skills() {
+import skillsData from '../data.json';
+ export default function Skills  () {
+  const { title, quoteHeading, quoteSubheading, description, buttonText, buttonIconClass, imageSrc } = skillsData.skillsSection;
   const [num, setNum] = useState(331231);
 
   return (
@@ -31,35 +32,35 @@ export default function Skills() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="container-fluid" style={{ background: "#e7e7e7" }}>
-            <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", maxHeight:"80vh", border: "15px solid white" }}>
-              <div className="row">
-                <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" id="rt2" style={{borderRight:"2px black solid"}}>
-                  <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>Skills</span>
-                </div>
-                <div className="col-md-5 mt-2 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center"  >
-                  <div className="text-center" style={{   }}>
-                    <h3 style={{ fontSize: "large", fontWeight: "bolder" }} className="text-dark p-3 mb-4">
-                      Good Design Keeps the User Happy, the Manufacturer in the Black and the Aesthete Unoffended.
-                    </h3>
-                    <p className="text-danger mt-4 mb-4" style={{ fontSize: "x-large", fontFamily: "monospace" }}>
-                      We're creative minds
-                    </p>
-                    <p className="col-12" style={{ fontWeight: "normal", fontFamily: "monospace" }}>
-                      Ensured mock-ups met both visual and textual branding standards. Defined and documented website design standards when needed. Designed adaptive layouts to maintain a consistent user experience across the product. Created clickable prototypes when needed.
-                    </p>
-                    <button className="btn text-white" style={{ fontSize: "large", backgroundColor: "crimson", width: "60%" }}>
-                      View Skills
-                      <i className="fa fa-long-arrow-right ml-1" style={{ fontSize: "1.5vw" }}></i>
-                    </button>
-                  </div>
-                </div>
-                <div className="col-md-6 col-sm-6 col-6" style={{ borderLeft: "2px black solid" }}>
-                  <img src={zayn} alt="" style={{ width: "100%", backgroundPosition: "bottom" }} />
-                </div>
-              </div>
+        <div className="container-fluid" style={{ background: "#e7e7e7" }}>
+      <div className="container mt-0" style={{ backgroundColor: "#f5f3f3", maxHeight: "80vh", border: "15px solid white" }}>
+        <div className="row">
+          <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" id="rt2" style={{ borderRight: "2px black solid" }}>
+            <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>{title}</span>
+          </div>
+          <div className="col-md-5 mt-2 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center">
+            <div className="text-center">
+              <h3 style={{ fontSize: "large", fontWeight: "bolder" }} className="text-dark p-3 mb-4">
+                {quoteHeading}
+              </h3>
+              <p className="text-danger mt-4 mb-4" style={{ fontSize: "x-large", fontFamily: "monospace" }}>
+                {quoteSubheading}
+              </p>
+              <p className="col-12" style={{ fontWeight: "normal", fontFamily: "monospace" }}>
+                {description}
+              </p>
+              <button className="btn text-white" style={{ fontSize: "large", backgroundColor: "crimson", width: "60%" }}>
+                {buttonText}
+                <i className={`${buttonIconClass} ml-1`} style={{ fontSize: "1.5vw" }}></i>
+              </button>
             </div>
           </div>
+          <div className="col-md-6 col-sm-6 col-6" style={{ borderLeft: "2px black solid" }}>
+            <img src={imageSrc} alt="" style={{ width: "100%", backgroundPosition: "bottom" }} />
+          </div>
+        </div>
+      </div>
+    </div>
         </SwiperSlide>
 
         <SwiperSlide>

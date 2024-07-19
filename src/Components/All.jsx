@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
-import Education from "../assets/Education";
+import Education from "./Education";
 import Employment from "./Employment";
 import Portfolio from "./Portfolio";
 import Awards from "./Awards";

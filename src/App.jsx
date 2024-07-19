@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
-import Education from "./assets/Education";
+import Education from "./Components/Education";
 import Employment from "./Components/Employment";
 import Portfolio from "./Components/Portfolio";
 import Awards from "./Components/Awards";
