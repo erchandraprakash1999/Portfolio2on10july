@@ -55,7 +55,7 @@ export default function About() {
                 </div>
 
                 <div
-                  className="col-md-5 mt-2 col-sm-5 col-6"
+                  className="col-md-5 mt-2 col-sm-12 col-12"
                   style={{
                     borderLeft: "0.5px black solid",
                     backgroundImage: `url(${bg})`,
@@ -91,7 +91,7 @@ export default function About() {
                 </div>
 
                 <div
-                  className="col-md-6 col-sm-7 px-0 col-7"
+                  className="col-md-6 col-sm-12 col-12"
                   style={{ borderLeft: "0.5px black solid" }}
                 >
                   <h3

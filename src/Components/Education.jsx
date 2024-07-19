@@ -46,11 +46,11 @@ export default function Education() {
             <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>{title}</span>
           </div>
 
-          <div className="col-md-5 col-sm-5 col-6" style={{ borderLeft: "2px black solid", borderRight: "2px black solid" }}>
+          <div className="col-md-5 col-sm-12 col-12" style={{ borderLeft: "2px black solid", borderRight: "2px black solid" }}>
             <img src={backgroundImage} alt="" style={{ width: "100%", height: "100%", backgroundPosition: "bottom" }} />
           </div>
 
-          <div className="col-md-6 col-sm-6 col-6 sm-height-auto sm-no-padding-lr">
+          <div className="col-md-6 col-sm-12 col-12 sm-height-auto sm-no-padding-lr">
             <div className="slimScrollDiv" style={{ position: 'relative', overflow: 'hidden', width: 'auto' }}>
               <div className="mCustomScrollbar" style={{ overflow: 'hidden', width: 'auto' }}>
                 <div className="center-block padding-twelve-lr padding-five-tb md-padding-five-left md-no-padding-right sm-padding-ten-lr xs-no-padding-lr">

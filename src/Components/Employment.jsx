@@ -42,7 +42,7 @@ const Employment = () => {
                   <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>{title}</span>
                 </div>
                 
-                <div className="col-md-6 col-sm-6 col-6 sm-height-auto sm-no-padding-lr">
+                <div className="col-md-6 col-sm-12 col-12 sm-height-auto sm-no-padding-lr">
                   <div className="slimScrollDiv" style={{ position: 'relative', overflow: 'hidden', width: 'auto' }}>
                     <div className="mCustomScrollbar" style={{ overflow: 'hidden', width: 'auto' }}>
                       <div className="center-block padding-twelve-lr padding-five-tb md-padding-five-left md-no-padding-right sm-padding-ten-lr xs-no-padding-lr">
@@ -73,7 +73,7 @@ const Employment = () => {
                   </div>
                 </div>
                 
-                <div className="col-md-5 col-sm-5 col-6 p-4" style={{ borderLeft: "2px black solid" }}>
+                <div className="col-md-5 col-sm-12 col-12 p-4" style={{ borderLeft: "2px black solid" }}>
                   <div className="row d-flex justify-content-center align-items-center" style={{ height: "80vh" }}>
                     <div className="col-md-8">
                       <img src={image} alt="" style={{ width: "100%", height: "70vh", backgroundPosition: "bottom" }} />

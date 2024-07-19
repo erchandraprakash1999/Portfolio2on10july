@@ -38,7 +38,7 @@ import skillsData from '../data.js';
           <div className="col-md-1 d-none d-md-flex flex-column justify-content-center align-items-center" id="rt2" style={{ borderRight: "2px black solid" }}>
             <span id="rt" style={{ fontSize: "3vw", fontWeight: "bolder" }}>{title}</span>
           </div>
-          <div className="col-md-5 mt-2 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center">
+          <div className="col-md-5 mt-2 col-sm-12 col-12  p-4 d-flex flex-column justify-content-center align-items-center">
             <div className="text-center">
               <h3 style={{ fontSize: "large", fontWeight: "bolder" }} className="text-dark p-3 mb-4">
                 {quoteHeading}
@@ -55,7 +55,7 @@ import skillsData from '../data.js';
               </button>
             </div>
           </div>
-          <div className="col-md-6 col-sm-6 col-6" style={{ borderLeft: "2px black solid" }}>
+          <div className="col-md-6 col-sm-12 col-12" style={{ borderLeft: "2px black solid" }}>
             <img src={image} alt="" style={{ width: "100%", backgroundPosition: "bottom" }} />
           </div>
         </div>
