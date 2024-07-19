@@ -11,7 +11,7 @@ export default function Portfolio() {
     title,
     heading,
     introParagraph,
-    imageSrc,
+    image,
     designs,
     tabs,
     buttonText,
@@ -50,7 +50,7 @@ export default function Portfolio() {
 
                 <div className="col-md-5 col-sm-5 col-6 p-4" style={{ borderLeft: "2px black solid" }}>
                   <img
-                    src={imageSrc}
+                    src={image}
                     alt=""
                     className="ml-4"
                     style={{ width: "100%", backgroundPosition: "bottom" }}

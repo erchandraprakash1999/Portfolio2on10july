@@ -14,7 +14,7 @@ import "../assets/styles.css";
 import employmentData from '../data.json';
 
 const Employment = () => {
-  const { title, introParagraph, employmentList, quote, imageSrc } = employmentData.employmentSection;
+  const { title, introParagraph, employmentList, quote, image } = employmentData.employmentSection;
   return (
     <>
       <Swiper
@@ -76,7 +76,7 @@ const Employment = () => {
                 <div className="col-md-5 col-sm-5 col-6 p-4" style={{ borderLeft: "2px black solid" }}>
                   <div className="row d-flex justify-content-center align-items-center" style={{ height: "80vh" }}>
                     <div className="col-md-8">
-                      <img src={imageSrc} alt="" style={{ width: "100%", height: "70vh", backgroundPosition: "bottom" }} />
+                      <img src={image} alt="" style={{ width: "100%", height: "70vh", backgroundPosition: "bottom" }} />
                     </div>
                     <div className="col-md-4 text-left">
                       <p style={{ fontFamily: "cursive", fontSize: "large" }}>{quote}</p>

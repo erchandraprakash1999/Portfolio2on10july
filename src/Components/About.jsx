@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import "../assets/styles.css";
-import bg from "../assets/bg1.jpg";
+import bg from "../assets/good.jpg";
 
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 

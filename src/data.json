@@ -22,7 +22,7 @@
   },
   "aboutSection": {
     "title": "about_me",
-    "backgroundImage": "src/assets/bg1.jpg",
+    "backgroundImage": "src/assets/zayn3.jpg",
     "tableData": [
       {"label": "Name:", "value": "(123) - 456-7890"},
       {"label": "Email:", "value": "23 February 1986"},
@@ -48,7 +48,7 @@
     "description": "Ensured mock-ups met both visual and textual branding standards. Defined and documented website design standards when needed. Designed adaptive layouts to maintain a consistent user experience across the product. Created clickable prototypes when needed.",
     "buttonText": "View Skills",
     "buttonIconClass": "fa fa-long-arrow-right",
-    "imageSrc": "src/assets/zayn3.jpg"
+    "image": "src/assets/zayn3.jpg"
   }
 ,
 "educationSection": {
@@ -104,12 +104,12 @@
     }
   ],
   "quote": "Awards can give you a tremendous amount of encouragement to keep getting better, no matter how young or old you are.",
-  "imageSrc": "src/assets/zayn.jpg"
+  "image": "src/assets/zayn.jpg"
 },"portfolioSection": {
   "title": "Portfolio",
   "heading": "Other Things I have Designed.",
   "introParagraph": "Education is not the learning of facts, but the training of the mind to think. Education is a gift that none can take away. I am still learning every day.",
-  "imageSrc": "src/assets/zayn.jpg",
+  "image": "src/assets/tryout2.jpg",
   "designs": [
     "Design is not just what it looks and feels like.",
     "The details are not the details. They make the design.",
@@ -145,7 +145,7 @@
         "src/assets/award3.jpg",
         "src/assets/award4.jpg"
       ],
-      "backgroundImage": "src/assets/zayn3.jpg"
+      "backgroundImage": "src/assets/checkout1.webp"
     },
     {
       "id": "section2",

@@ -17,7 +17,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 import skillsData from '../data.json';
  export default function Skills  () {
-  const { title, quoteHeading, quoteSubheading, description, buttonText, buttonIconClass, imageSrc } = skillsData.skillsSection;
+  const { title, quoteHeading, quoteSubheading, description, buttonText, buttonIconClass, image } = skillsData.skillsSection;
   const [num, setNum] = useState(331231);
 
   return (
@@ -56,7 +56,7 @@ import skillsData from '../data.json';
             </div>
           </div>
           <div className="col-md-6 col-sm-6 col-6" style={{ borderLeft: "2px black solid" }}>
-            <img src={imageSrc} alt="" style={{ width: "100%", backgroundPosition: "bottom" }} />
+            <img src={image} alt="" style={{ width: "100%", backgroundPosition: "bottom" }} />
           </div>
         </div>
       </div>
@@ -109,66 +109,77 @@ import skillsData from '../data.json';
             </div>
             <div className="row">
         
-          <div className="col-md-12 d-flex justify-content-around mt-4">
-            <div className="col-md-6 col-xs-3 text-right mb-3 text-center">
-            <AnimatedNumbers
-              includeComma
-              className="animated-numbers"
-              transitions={(index) => ({
-                type: "spring",
-                duration: index + 0.3,
-              })}
-              animateToNumber={num}
-              fontStyle={{
-                fontSize: 40,
-                color: "red",
-              }}
-            />
-            <AnimatedNumbers
-              includeComma
-              className="animated-numbers"
-              transitions={(index) => ({
-                type: "spring",
-                duration: index + 0.3,
-              })}
-              animateToNumber={num}
-              fontStyle={{
-                fontSize: 40,
-                color: "red",
-              }}
-            />
-           </div>
-           <div className="col-md-6 col-xs-3  text-center">
-       
-      
-            <AnimatedNumbers
-              includeComma
-              className="animated-numbers"
-              transitions={(index) => ({
-                type: "spring",
-                duration: index + 0.3,
-              })}
-              animateToNumber={num}
-              fontStyle={{
-                fontSize: 40,
-                color: "red",
-              }}
-            />
-            <AnimatedNumbers
-              includeComma
-              className="animated-numbers"
-              transitions={(index) => ({
-                type: "spring",
-                duration: index + 0.3,
-              })}
-              animateToNumber={num}
-              fontStyle={{
-                fontSize: 40,
-                color: "red",
-              }}
-            />
-          </div>
-          </div>
+            <div className="col-md-12 d-flex justify-content-around mt-4">
+      <div className="col-md-6 col-xs-3 text-right mb-3 text-center">
+        <div className="label-container">
+        <div className="number-label h3 text-secondary text-center" style={{fontWeight:"bolder",borderBottom:"2px red solid"}}>SKILL A</div>
+          <AnimatedNumbers
+            includeComma
+            className="animated-numbers text-center"
+            transitions={(index) => ({
+              type: "spring",
+              duration: index + 0.3,
+            })}
+            animateToNumber={num}
+            fontStyle={{
+              fontSize: 40,
+              color: "red",
+            }}
+          />
+        </div>
+        <div className="label-container">
+        <div className="number-label h3 text-secondary text-center" style={{fontWeight:"bolder",borderBottom:"2px red solid"}}>SKILL B</div>
+          <AnimatedNumbers
+            includeComma
+            className="animated-numbers"
+            transitions={(index) => ({
+              type: "spring",
+              duration: index + 0.3,
+            })}
+            animateToNumber={num}
+            fontStyle={{
+              fontSize: 40,
+              color: "red",
+            }}
+          />
+        </div>
+      </div>
+      <div className="col-md-6 col-xs-3 text-center">
+        <div className="label-container">
+        <div className="number-label h3 text-secondary text-center" style={{fontWeight:"bolder",borderBottom:"2px red solid"}}>SKILL C</div>
+          <AnimatedNumbers
+            includeComma
+            className="animated-numbers"
+            transitions={(index) => ({
+              type: "spring",
+              duration: index + 0.3,
+            })}
+            animateToNumber={num}
+            fontStyle={{
+              fontSize: 40,
+              color: "red",
+            }}
+          />
+        </div>
+        <div className="label-container">
+        <div className="number-label h3 text-secondary text-center" style={{fontWeight:"bolder",borderBottom:"2px red solid"}}>SKILL D</div>
+          <AnimatedNumbers
+          
+            includeComma
+            className="animated-numbers"
+            transitions={(index) => ({
+              type: "spring",
+              duration: index + 0.3,
+            })}
+            animateToNumber={num}
+            fontStyle={{
+              fontSize: 40,
+              color: "red",
+            }}
+          />
+        </div>
+      </div>
+    </div>
        
         </div>
         </div>
