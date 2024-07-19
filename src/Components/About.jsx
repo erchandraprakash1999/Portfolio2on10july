@@ -2,7 +2,7 @@ import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import aboutData from "../data.json";
+import aboutData from "../data.js";
 
 import "swiper/css";
 import "swiper/css/navigation";

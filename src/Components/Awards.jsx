@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-import data from '../data.json';
+import data from '../data.js';
 
 export default function Awards() {
   const [awardSections, setAwardSections] = useState([]);

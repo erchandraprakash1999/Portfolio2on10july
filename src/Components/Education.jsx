@@ -11,7 +11,7 @@ import zaynb from "../assets/good.jpg";
 import zaync from "../assets/zayn6.jfif";
 import sign from "../assets/realsign.jpg";
 import zayn from "../assets/checkout2.jpg";
-import educationData from '../data.json';
+import educationData from '../data.js';
 
 import "../assets/styles.css";
 

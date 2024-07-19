@@ -11,7 +11,7 @@ import sign from "../assets/realsign.jpg";
 import zayn from "../assets/checkout1.webp";
 
 import "../assets/styles.css";
-import employmentData from '../data.json';
+import employmentData from '../data.js';
 
 const Employment = () => {
   const { title, introParagraph, employmentList, quote, image } = employmentData.employmentSection;

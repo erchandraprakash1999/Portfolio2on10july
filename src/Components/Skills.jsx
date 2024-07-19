@@ -15,7 +15,7 @@ import "../assets/styles.css";
 
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
-import skillsData from '../data.json';
+import skillsData from '../data.js';
  export default function Skills  () {
   const { title, quoteHeading, quoteSubheading, description, buttonText, buttonIconClass, image } = skillsData.skillsSection;
   const [num, setNum] = useState(331231);

@@ -5,15 +5,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import zayn from "../assets/zayn3.jpg";
-import zaynb from "../assets/zaynbg.jpg";
-import zaync from "../assets/goodqzayn.jpg";
-import sign from "../assets/realsign.jpg";
+
+
+import zaynb from "../assets/zaynbg.jpg"
 
 import "../assets/styles.css";
 
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-import homeData from "../data.json";
+import homeData from "../data";
 
 export default function Home() {
   const { heading, paragraph, signSrc, zaynSrc } = homeData.homeSec1;
